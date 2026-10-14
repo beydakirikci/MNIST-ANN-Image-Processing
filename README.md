@@ -58,13 +58,17 @@ pip install -r requirements.txt
 python ann.py
 ```
 
-## 📊 Output
+## 📊 Output & Results
 
-The script will:
-1. Display the image processing stages (Original → Histogram Eq. → Gaussian Blur → Canny Edges)
-2. Train the ANN model for 50 epochs
-3. Print test loss and accuracy
-4. Plot training/validation loss and accuracy curves
+The script outputs:
+1. **Image Processing Stages** (Original → Histogram Equalization → Gaussian Blur → Canny Edges)
+2. **ANN Model Training** for 50 epochs
+3. **Evaluation Metrics** (Test Loss & Test Accuracy)
+4. **Learning Curves** showing training and validation loss/accuracy progression
+
+### 📈 Training History (Loss & Accuracy)
+
+![Training History](Ekran%20görüntüsü%202026-10-14%20194802.png)
 
 ## 📁 Project Structure
 
